@@ -1,0 +1,5 @@
+steps:
+  - name: ":docker: Build"
+    plugins:
+      docker-compose#v1.8.2:
+        build: app
